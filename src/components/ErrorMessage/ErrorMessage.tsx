@@ -1,5 +1,6 @@
-import styles from "./Loader.module.css";
+import styles from "./ErrorMessage.module.css";
+
 
 export default function ErrorMessage() {
-  return <p className={styles.error}>Something went wrong!</p>;
+  return <p className={styles.text}>There was an error, please try again...</p>;
 }

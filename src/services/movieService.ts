@@ -2,7 +2,7 @@ import axios, { AxiosResponse } from "axios";
 import { Movie } from "../types/movie";
 
 
-const BASE_URL = "https://api.themoviedb.org/3/search/moe";
+const BASE_URL = "https://api.themoviedb.org/3/search/movie";
 
 
 interface FetchMoviesResponse {
